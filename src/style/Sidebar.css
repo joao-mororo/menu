@@ -1,0 +1,25 @@
+#sidebar {
+    background-color: brown;
+    height: 100vh;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+#sidebar ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 20px;
+}
+
+#sidebar a {
+    color: #fff;
+    transition: 0.2s;
+}
+
+#sidebar a:hover {
+    color: rgb(150, 150, 150);
+}
