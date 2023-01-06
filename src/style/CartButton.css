@@ -1,0 +1,19 @@
+.cart-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    background-color: brown;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cart-button:hover {
+    background-color: rgb(145, 22, 22);
+}

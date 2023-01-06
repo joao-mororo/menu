@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import Header from "../components/Header";
+import FinishOrder from "../components/FinishOrder";
 import { BsTrashFill } from 'react-icons/bs'
 import { BiPlus, BiMinus } from 'react-icons/bi'
 import "../style/Cart.css"
@@ -36,6 +37,8 @@ export default function Cart() {
                     </div>
                 )
             })}
+            
+            <FinishOrder />
         </div>
     )
 }

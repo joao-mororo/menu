@@ -1,10 +1,10 @@
 import { BrowserRouter } from "react-router-dom";
+import CartButton from "./components/CartButton";
 import CartProvider from "./contexts/cart";
 import Sidebar from "./components/Sidebar";
 import Routes from "./routes";
 
 export default function App() {
-
 
   const style = {
     display: "flex"
@@ -15,9 +15,8 @@ export default function App() {
       <CartProvider>
         <BrowserRouter>
           <Sidebar />
-          {/* <div style={{width: '100%'}}> */}
           <Routes />
-          {/* </div> */}
+          <CartButton />
         </BrowserRouter>
       </CartProvider>
     </div>
