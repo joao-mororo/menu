@@ -5,7 +5,7 @@ A website for ordering food online
 - HTML
 - CSS
 - JavaScript
-- ReactjS
+- React.JS
 
 # Some used libraries
 - react-icons
