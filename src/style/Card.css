@@ -1,5 +1,7 @@
 .card-area {
     display: flex;
+    flex-wrap: wrap;
+    margin: 0 7rem;
     justify-content: space-evenly;
 }
 
@@ -21,6 +23,7 @@
     padding: 10px;
     margin: 10px;
     width: 250px;
+    /* width: 33.3333%; */
     height: 300px;
 }
 
